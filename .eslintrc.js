@@ -15,6 +15,8 @@ module.exports = {
   },
   rules: {
     "linebreak-style": 0,
-    "indent": [2, "tab"]
+    "indent": [2, "tab"],
+    "comma-dangle": 0,
+    "no-tabs": 0
   },
 };
