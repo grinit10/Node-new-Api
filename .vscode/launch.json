@@ -6,9 +6,9 @@
 	"configurations": [
 		{
 			"type": "node",
-			"request": "launch",
-			"name": "node",
-			"program": "${workspaceFolder}\\app.js"
+			"request": "attach",
+			"name": "Attach by Process ID",
+			"processId": "${command:PickProcess}"
 		}
 	]
 }
